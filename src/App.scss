@@ -1,35 +1,35 @@
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .App {
   text-align: center;
-  background:#343a40!important;
-  height:100vh;
-  width:100%;
+  height: 100vh;
+  width: 100%;
   button {
     &:hover {
       background-color: #6c757d;
       border-color: #6c757d;
-      transition:all 0.5s;
+      transition: all 0.5s;
     }
   }
-  h2 {
-    color:white;  
-  }
-  .list {
-    margin-top:30px;
-    .specialItem{
-      margin:0 auto;
-    }
-    .item {
-      padding:20px;
 
+  .listItem {
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
+  .content {
+    text-align: left;
+    .buttonCenter {
+      text-align: center !important;
+    }
+    .contentWrapper {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      .cardContent {
+        text-align: left;
+      }
+    }
   }
-  
 }
-
-
-
